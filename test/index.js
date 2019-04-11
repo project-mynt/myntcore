@@ -1,27 +1,27 @@
 'use strict';
 
 var should = require('chai').should();
-var ravencore = require('../');
+var myntcore = require('../');
 
 describe('Library', function() {
   it('should export primatives', function() {
-    should.exist(ravencore.crypto);
-    should.exist(ravencore.encoding);
-    should.exist(ravencore.util);
-    should.exist(ravencore.errors);
-    should.exist(ravencore.Address);
-    should.exist(ravencore.Block);
-    should.exist(ravencore.MerkleBlock);
-    should.exist(ravencore.BlockHeader);
-    should.exist(ravencore.HDPrivateKey);
-    should.exist(ravencore.HDPublicKey);
-    should.exist(ravencore.Networks);
-    should.exist(ravencore.Opcode);
-    should.exist(ravencore.PrivateKey);
-    should.exist(ravencore.PublicKey);
-    should.exist(ravencore.Script);
-    should.exist(ravencore.Transaction);
-    should.exist(ravencore.URI);
-    should.exist(ravencore.Unit);
+    should.exist(myntcore.crypto);
+    should.exist(myntcore.encoding);
+    should.exist(myntcore.util);
+    should.exist(myntcore.errors);
+    should.exist(myntcore.Address);
+    should.exist(myntcore.Block);
+    should.exist(myntcore.MerkleBlock);
+    should.exist(myntcore.BlockHeader);
+    should.exist(myntcore.HDPrivateKey);
+    should.exist(myntcore.HDPublicKey);
+    should.exist(myntcore.Networks);
+    should.exist(myntcore.Opcode);
+    should.exist(myntcore.PrivateKey);
+    should.exist(myntcore.PublicKey);
+    should.exist(myntcore.Script);
+    should.exist(myntcore.Transaction);
+    should.exist(myntcore.URI);
+    should.exist(myntcore.Unit);
   });
 });

@@ -1,5 +1,5 @@
 'use strict';
 
-var ravencore = require('ravencore-lib');
+var myntcore = require('myntcore-lib');
 
-module.exports = ravencore;
+module.exports = myntcore;
